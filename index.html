@@ -105,63 +105,70 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="reservation__form">
-            <fieldset class="reservation__form_fieldset">
-              <div class="reservation__form_element">
-                <label for="name" class="reservation__form_label"
+            <fieldset class="reservation__form reservation__form_fieldset">
+              <div class="reservation__form reservation__form_element">
+                <label
+                  for="name"
+                  class="reservation__form reservation__form_label"
                   >Nombre *</label
                 >
                 <input
-                  class="reservation__form_input"
+                  class="reservation__form reservation__form_input"
                   type="text"
                   id="name"
                   placeholder="Nombre"
                 />
               </div>
-              <div class="reservation__form_element">
-                <label for="comensales" class="reservation__form_label"
+              <div class="reservation__form reservation__form_element">
+                <label
+                  for="comensales"
+                  class="reservation__form reservation__form_label"
                   >Número de comensales *
                 </label>
                 <input
-                  class="reservation__form_input"
+                  class="reservation__form reservation__form_input"
                   type="number"
                   id="comensales"
                   placeholder="1-8"
                 />
               </div>
-              <div class="reservation__form_element">
-                <label for="fecha" class="reservation__form_label"
+              <div class="reservation__form reservation__form_element">
+                <label
+                  for="fecha"
+                  class="reservation__form reservation__form_label"
                   >Fecha y hora *</label
                 >
                 <input
-                  class="reservation__form_input"
+                  class="reservation__form reservation__form_input"
                   type="datetime-local"
                   id="fecha"
                 />
               </div>
-              <div class="reservation__form_element">
-                <label for="correo" class="reservation__form_label"
-                  >Tu correo electrónico *</label
+              <div class="reservation__form reservation__form_element">
+                <label
+                  for="correo"
+                  class="label reservation__form_element-label"
                 >
+                  Tu correo electrónico *
+                </label>
                 <input
-                  class="reservation__form_input"
+                  class="reservation__form reservation__form_input"
                   type="email"
                   id="correo"
                   placeholder="email@email.com"
                 />
               </div>
-              <div class="reservation__form_element">
-                <button type="submit" class="reservation__form_button">
+              <div class="reservation__form reservation__form_element">
+                <button
+                  type="submit"
+                  class="reservation__form reservation__form_button"
+                >
                   Reservar una mesa
                 </button>
-                <label
-                  class="reservation__form_checkbox reservation__form_checkbox-text"
-                >
-                  <input
-                    type="checkbox"
-                    class="reservation__form_checkbox reservation__form_checkbox-box"
-                  />
-                  Acepto los términos de uso</label
-                >
+                <label class="label reservation__form_submit-label">
+                  <input type="checkbox" class="checkbox" />
+                  Acepto los términos de uso
+                </label>
               </div>
             </fieldset>
           </form>

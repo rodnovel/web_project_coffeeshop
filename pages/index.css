@@ -182,8 +182,7 @@
   padding-bottom: 120px;
 }
 .reservation__form {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 .reservation__form_fieldset {
   display: flex;
@@ -252,14 +251,40 @@
 .reservation__form_button:hover {
   opacity: 70%;
 }
-.reservation__form_checkbox {
+.reservation__form_checkbox-label {
   display: flex;
   justify-content: center;
   margin-right: 12px;
 }
-.reservation__form_checkbox-box {
+.reservation__form_checkbox {
   height: 20px;
   width: 20px;
 }
-.reservation__form_checkbox-text {
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__form_element-label {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+  max-width: 385px;
+  width: 100%;
+}
+
+.reservation__form_submit-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
