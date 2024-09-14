@@ -186,13 +186,12 @@
 }
 .reservation__title {
   text-align: center;
-  margin-bottom: 80px;
-  margin-top: 0;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  padding-bottom: 80px;
 }
 .form {
   max-width: 385px;
